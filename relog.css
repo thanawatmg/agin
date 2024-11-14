@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    background-color:rgb(181, 181, 224);
+    display: flex;
+    justify-self: center;
+    /* position:relative; */
+}
+
+.con{
+    border-radius: 20px;
+    padding:20px;
+    margin-top: 50%;
+    border:solid 1px black;
+    background-color:antiquewhite;
+    width: 50vh;
+    /* position:absolute; */
+}
+.con2{
+    border-radius: 20px;
+    padding:20px;
+    margin-top: 50%;
+    border:solid 1px black;
+    background-color:antiquewhite;
+    width: 50vh;
+    /* position:absolute; */
+    height: 50vh;
+}
+.head h1{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+label{
+    font-size: 30px;
+}
+input{
+    padding: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+.regisbtn{
+    border-radius: 20px;
+    border:solid 1px black;
+    padding:20px;
+    width: 100%;
+    font-size: 15px;
+    transition: .3s;
+}
+.regisbtn2{
+    border-radius: 20px;
+    border:solid 1px black;
+    padding:20px;
+    width: 100%;
+    font-size: 15px;
+    transition: .3s;
+}
+.regisbtn:hover{
+    background-color: gray;
+}
+.regisbtn2:hover{
+    background-color: gray;
+}
