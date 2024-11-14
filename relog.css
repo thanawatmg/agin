@@ -17,6 +17,7 @@ body{
 }
 
 .con{
+    border-radius: 20px;
     padding:20px;
     margin-top: 50%;
     border:solid 1px black;
@@ -25,6 +26,7 @@ body{
     /* position:absolute; */
 }
 .con2{
+    border-radius: 20px;
     padding:20px;
     margin-top: 50%;
     border:solid 1px black;
@@ -47,20 +49,32 @@ input{
 .box{
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 35vh;
 }
 .box2{
     display: flex;
     flex-direction: column;
-    height: 23vh;
+    height: 30vh;
 }
 .regisbtn{
+    border-radius: 20px;
+    border:solid 1px black;
     padding:20px;
     width: 100%;
     font-size: 15px;
+    transition: .3s;
 }
 .regisbtn2{
+    border-radius: 20px;
+    border:solid 1px black;
     padding:20px;
     width: 100%;
     font-size: 15px;
+    transition: .3s;
+}
+.regisbtn:hover{
+    background-color: gray;
+}
+.regisbtn2:hover{
+    background-color: gray;
 }
